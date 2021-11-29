@@ -11,6 +11,6 @@ end
 
 get '/cat' do
   "<div>
-    <img src='https://imgur.com/jFaSxym' alt='cat'>
+    <img style='border: dashed red' src='https://i.imgur.com/jFaSxym.png'>
   </div>"
 end
