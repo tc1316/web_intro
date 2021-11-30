@@ -1,0 +1,7 @@
+<% unless @catname %>
+  <form action='/named-cat' method='post'>
+    <input type='text' name='catname'>
+    <input type='submit' value='whats my name?'>
+  </form>
+<% end %>
+<h1> My name is <%= @catname %> </h1>
